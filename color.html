@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Cheatsheet</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="banner"> CSS Color CHEAT SHEET</h1>
+    </header>
+    
+    <main>
+        <!-- Represent color -->
+        <div>
+            <h2>Ways to represent color</h2>
+            <ul>
+                <li><span class="code">color</span>  - this property styles an element’s <strong>foreground color</strong> .</li>
+                <li><span class="code">background-color</span> - this property styles an element’s <strong>background color</strong>.</li>
+            </ul> 
+            <p> There are 4 ways to represent color:</p>
+            <ol>
+                <li><strong>Named colors</strong> — there are 147 named colors.</li>
+                <li><strong>Hexadecimal or hex colors</strong> 
+                    <ul>
+                        <li>Hexadecimal is a number system with has sixteen digits, 0 to 9 followed by “A” to “F”.</li>
+                        <li>Hex values always begin with # and specify values of red, blue and green using hexademical numbers such as <span class= "code">#23F41A</span>. </li>
+                    </ul> 
+                </li>
+                <li><strong>RGB</strong>
+                <ul>
+                    <li>RGB colors use the rgb() syntax with one value for <strong>red</strong>, one value for <strong>blue</strong> and one value for <strong>green</strong>. </li>
+                    <li>RGB values range from 0 to 255 and look like this: <span class= "code">rgb(7, 210, 50)</span>.</li>
+                </ul>
+                </li>
+                <li><strong>HSL</strong>
+                    <ul>
+                        <li>HSL stands for <strong>hue</strong> (the color itself), <strong>saturation</strong> (the intensity of the color), and <strong>lightness</strong> (how light or dark a color is). </li>
+                        <li>Hue ranges from 0 to 360 and saturation and lightness are both represented as percentages like this: <span class="code">hsl(200, 20%, 50%)</span>. </li>
+                        <li>Saturation refers to the intensity or purity of the color / amount of gray in the color. If you imagine a line segment drawn from the center of the color wheel to the perimeter, the saturation is a point on that line segment. The saturation increases towards 100% as the point gets closer to the edge (the color becomes more rich). The saturation decreases towards 0% as the point gets closer to the center (the color becomes more gray).</li>
+                        <li>Lightness: 0% makes the color darker, closer to black.</li>
+                       
+                        <img class="bigger-image" src="resources/images/ColorWheel.jpg" alt="color wheel">
+                        
+                        <li>HSL is convenient for adjusting colors. In RGB, making the color a little darker may affect all three color components. In HSL, that’s as easy as changing the lightness value. HSL is also useful for making a set of colors that work well together by selecting various colors that have the same lightness and saturation but different hues.</li>
+                        <li>Please note that lightness is a different concept to brightness. Graphic design software (such as Photoshop and GIMP) have color pickers that use hue, saturation, and brightness — but brightness only adds black, whereas lightness offers both white and black.</li>
+                    </ul>
+                </li>
+            </ol>
+          
+            <p>You can add <strong> opacity</strong> to color in <span class="code">RGB (rgba)</span> and <span class="code">HSL (hsla)</span> by adding a fourth value: <strong>Alpha</strong>, <span class="code">a</span>, which is represented as a percentage. ex : 0.5 (= 50% opacity), 0.15 (= 15%). <br>Alpha is a decimal number from zero to one. If alpha is zero, the color will be completely transparent. If alpha is one, the color will be opaque. <br>ex: <span class="code">color: rgba(234, 45, 98, 0.33);</span></p>
+        </div>
+
+        <!-- Color Theory -->
+        <div>
+            <h2>Color Theory</h2>
+            <img src="resources/images/Color_star-en_(tertiary_names).svg.png" alt="color star">
+        </div>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: moccasin;
+}
+
+pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    /* word-wrap: break-word; */
+    word-break: break-all;
+}
+
+nav li{
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+}
+
+.bigger-image {
+    width: 35%;
+}
+
+/* Heading section*/
+
+.banner {
+    background-image: url(https://cdn.pixabay.com/photo/2018/09/16/22/08/software-3682509_960_720.jpg);
+    color: moccasin;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 8px;
+    padding-bottom: 8px; 
+    margin: 0 auto;
+    opacity: 0.9;  
+}
+
+h1, h2, table {
+    border-radius: 5px;
+}
+
+h2 {
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: rgba(207, 82, 205, 0.973);
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+/* Table section */
+
+table {
+    border: 2px groove darkorchid;
+    font-family: Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;
+    overflow: scroll;
+}
+
+th {
+    background-color: orchid;
+}
+
+
+td {
+    border-top: 1px groove darkorchid;
+    border-right: 1px groove darkorchid;
+}
+
+.blank-row {
+    height: 30px;
+}
+
+code, .code {
+    font-family: monospace;
+    background-color: cornsilk;
+    font-size: larger;
+    font-weight: bold;
+}
